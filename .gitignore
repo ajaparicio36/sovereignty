@@ -4,7 +4,6 @@ build/
 out/
 classes/
 gradle-app.setting
-!gradle-wrapper.jar
 .gradletasknamecache
 
 # Eclipse
@@ -33,7 +32,9 @@ modules.xml
 # Java
 *.class
 *.log
+# Allow gradle wrapper jar but ignore other jars
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 hs_err_pid*
 replay_pid*
 
