@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.tatayless.sovereignty'
-version = '0.1-SNAPSHOT'
+version = '0.1-SAMPLE'
 description = 'Sovereignty, create your nation and become stronger!'
 
 repositories {
